@@ -1,19 +1,22 @@
 .crow{
     display: flex;
-    width: 1000px;
-    height: 250px;
-    margin-left: 75px;
-    margin-top: 50px;
+    width: 100%;
+    height: 450px;
+    
+    
 }
 .crow1{
-    width: 1000px;
+    width: 100%;
+    height: 450px;
 
 }
 .crow2{
-    width: 1000px;
-    
+    width: 100%;
+    height: 450px;
+
 }
 .crow3{
-    width: 1000px;
-    
+    width: 100%;
+    height: 450px;
+
 }

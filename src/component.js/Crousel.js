@@ -7,7 +7,7 @@ function Crousel() {
       <Carousel.Item>
         <img
           className="crow1"
-          src="https://img.freepik.com/premium-vector/christmas-gadget-sale-social-media-instagram-web-banner-facebook-cover-template-premium-vector_511734-352.jpg"
+          src="https://ik.imagekit.io/ldqsn9vvwgg/image/mens-wear/img/mens-wear-wedding-sherwani.jpg"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -18,7 +18,7 @@ function Crousel() {
       <Carousel.Item>
         <img
           className="crow2"
-          src="https://www.shutterstock.com/image-vector/mobile-application-shopping-online-on-260nw-1379237159.jpg"
+          src="https://imagescdn.planetfashion.in/img/app/shopmedia/production/1/10-56-11314.jpg?w=992&auto=format"
           alt="Second slide"
         />
 
@@ -30,7 +30,7 @@ function Crousel() {
       <Carousel.Item>
         <img
           className="crow3"
-          src="https://www.shutterstock.com/image-vector/mobile-application-shopping-online-on-260nw-1379237159.jpg"
+          src="https://jade-media.jadeblue.com/media/wysiwyg/jadeblue/category/JadeBlue-Wedding-Wear.jpg"
           alt="Third slide"
         />
 

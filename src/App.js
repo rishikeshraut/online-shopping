@@ -3,14 +3,15 @@ import React from 'react';
 
 
 import Navbarmain from './component.js/Navbarmain';
-import Category from './component.js/Category';
-import Electronic from './component.js/Electronic';
-import Cloth from './component.js/Cloth';
-import Shooes from './component.js/shooes';
-
-
-import {Routes,Route,Link} from 'react-router-dom';
 import Dashboard from './component.js/Dashboard';
+// import Category from './component.js/Category';
+// import Electronic from './component.js/Electronic';
+// import Cloth from './component.js/Cloth';
+// import Shooes from './component.js/shooes';
+
+
+// import {Routes,Route,Link} from 'react-router-dom';
+// import Dashboard from './component.js/Dashboard';
 function App(){
 
     return (
@@ -19,8 +20,9 @@ function App(){
         <div className='bar'>
           <Navbarmain/>
         </div>
+        <Dashboard/>
        
-{          
+{/* {          
         <div className='main'>
 
        
@@ -50,7 +52,7 @@ function App(){
       </Routes>
       </div> 
         </div>
-      }
+      } */}
       </div>
       
       

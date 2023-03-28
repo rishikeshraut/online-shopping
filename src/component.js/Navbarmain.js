@@ -6,6 +6,13 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Login from './Login';
 import './nav2.css';
+import Category from './Category';
+import Electronic from './Electronic'
+import Cloth from './Cloth';
+import Shooes from './shooes';
+
+
+import {Routes,Route,Link} from 'react-router-dom';
 
 
 function Navbarmain() {
@@ -24,7 +31,40 @@ function Navbarmain() {
       <div className='Nav2'>
       <Navbar>
       <Container>
-      <div> <h3 style={{color:'white', marginLeft:'200px'}}>ONLINE SHOPING</h3></div>
+      
+      
+               
+      <div className='main'>
+
+       
+         
+            
+<div className='sidebar'>
+ 
+ 
+<div className='Ink'>
+ <Link className='Ink1' to="/Electronic"style={{color:'White', textDecoration:'none',}}> ELECTRONIC</Link> <br/>&nbsp;&nbsp;&nbsp;
+ 
+ <Link className='Ink2' to="/Cloth"style={{color:'White', textDecoration:'none'}}>CLOTH</Link> <br/>&nbsp;&nbsp;&nbsp;
+  <Link className='Ink3' to="/Shooes"style={{color:'White', textDecoration:'none'}}>SHOOES</Link> <br/>&nbsp;&nbsp;&nbsp;
+
+ </div>
+</div>
+<div>
+  
+ </div>
+<div >   
+<Routes>
+ <Route path='/category' element={<Category/>} />
+ <Route path='/electronic' element={<Electronic/>} />
+ <Route path='/cloth' element={<Cloth/>} />
+ <Route path='/shooes' element={<Shooes/>} />
+
+</Routes>
+</div> 
+
+
+      </div>
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>Modal heading</Modal.Title>
@@ -50,7 +90,7 @@ function Navbarmain() {
           </Form> 
           <div className='navbtn'>
           <Button variant="primary" onClick={handleShow}>Log In</Button>{' '} &nbsp;&nbsp;&nbsp;
-          <Button variant="primary">Seller</Button>{' '}
+          <Button variant="success">Become Seller</Button>{' '}
           </div>
         
         <Navbar.Collapse className="justify-content-end">
@@ -62,6 +102,7 @@ function Navbarmain() {
       </Container>
     </Navbar>
     </div>
+    
     
     
   );

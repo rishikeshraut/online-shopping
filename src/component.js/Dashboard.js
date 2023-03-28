@@ -11,7 +11,7 @@ function Dashboard() {
     <div className='dash'>
         <Crousel/></div>
         
-        <h3 style={{marginTop:'50px',marginLeft:'75px'}}>DEAL OF THE DAY</h3>
+        <h3 style={{marginTop:'20px',marginLeft:'75px'}}>DEAL OF THE DAY</h3>
 
         <div className='row1'>
 
@@ -44,6 +44,16 @@ function Dashboard() {
           <Card.Title>Card title</Card.Title>
           <Card.Text>
             
+          </Card.Text>
+        </Card.Body>
+        
+      </Card>
+      &nbsp; &nbsp; &nbsp; 
+      <Card className='card4'>
+        <Card.Img height={'150px'} src='https://g3fashion.com/blog/wp-content/uploads/2016/05/quilted-velvet-nehru-jacket-in-dark-teal-blue-v1-mtx701_3.jpg' />
+        <Card.Body>
+          <Card.Title>Card title</Card.Title>
+          <Card.Text>
           </Card.Text>
         </Card.Body>
         
@@ -116,6 +126,16 @@ function Dashboard() {
           <Card.Title>Card title</Card.Title>
           <Card.Text>
             
+          </Card.Text>
+        </Card.Body>
+        
+      </Card>
+      &nbsp; &nbsp; &nbsp; 
+      <Card className='card4'>
+        <Card.Img height={'150px'} src='https://g3fashion.com/blog/wp-content/uploads/2016/05/quilted-velvet-nehru-jacket-in-dark-teal-blue-v1-mtx701_3.jpg' />
+        <Card.Body>
+          <Card.Title>Card title</Card.Title>
+          <Card.Text>
           </Card.Text>
         </Card.Body>
         
